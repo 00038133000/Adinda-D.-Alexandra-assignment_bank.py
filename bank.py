@@ -10,7 +10,7 @@ Original file is located at
 #version 1
 #without sample_str
 
-kata = input('Hello, welcome to the Bank! ').strip().lower() 
+kata = input('Enter your greetings: ').strip().lower() 
 if kata == 'hello':
   print('$0')
 elif kata[0:5] == ('hello'):
@@ -25,7 +25,7 @@ else:
 
 sample_str = "hello"
 
-kata = input('Hello, welcome to the Bank! ').strip().lower() 
+kata = input('Enter your greetings: ').strip().lower() 
 if kata[0:5] == sample_str:
   print('$0')
 elif kata[0] == sample_str[0]:
@@ -36,7 +36,7 @@ else:
 #version 3
 #using katahello 
 
-kata = input('Hello, welcome to the Bank! ').strip().lower()
+kata = input('Enter your greetings: ').strip().lower()
 katahello = 'hello'
 
 if katahello in kata:
